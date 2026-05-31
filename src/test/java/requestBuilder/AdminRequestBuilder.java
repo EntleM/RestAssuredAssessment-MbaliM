@@ -6,7 +6,7 @@ import commons.Paths;
 
 public class AdminRequestBuilder {
 
-    private static final String ADMIN_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIxMmFlNTZkZi1iNGMyLTRlYTUtYmI3ZS1lMzNiMThiN2IyYjkiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3OTE3NTk4NywiZXhwIjoxNzc5MjYyMzg3fQ.jBNUA1cj8X3Ib6PAWJl38Bq9w291RUTLTuTBmSHLKM0";
+    private static final String ADMIN_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIxMmFlNTZkZi1iNGMyLTRlYTUtYmI3ZS1lMzNiMThiN2IyYjkiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc4MDIxNTM2OSwiZXhwIjoxNzgwMzAxNzY5fQ._P3zD1R5t6cCyYkpDDrPdlJcGogmYm0m0hUELZhYzcw";
 
     public static RequestSpecification getAdminSpec() {
         return new RequestSpecBuilder()
